@@ -1,0 +1,160 @@
+28/01/2022	10:31:09	Image 1 / 20 . 5.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\21_training.tif.	-
+
+Image 1 / 20 . 5.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\21_training.tif.
+
+28/01/2022	10:31:10	Image 2 / 20 . 10.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\22_training.tif.	-
+
+Image 2 / 20 . 10.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\22_training.tif.
+
+28/01/2022	10:31:10	Image 3 / 20 . 15.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\23_training.tif.	-
+
+Image 3 / 20 . 15.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\23_training.tif.
+
+28/01/2022	10:31:10	Image 4 / 20 . 20.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\24_training.tif.	-
+
+Image 4 / 20 . 20.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\24_training.tif.
+
+28/01/2022	10:31:11	Image 5 / 20 . 25.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\25_training.tif.	-
+
+Image 5 / 20 . 25.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\25_training.tif.
+
+28/01/2022	10:31:11	Image 6 / 20 . 30.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\26_training.tif.	-
+
+Image 6 / 20 . 30.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\26_training.tif.
+
+28/01/2022	10:31:11	Image 7 / 20 . 35.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\27_training.tif.	-
+
+Image 7 / 20 . 35.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\27_training.tif.
+
+28/01/2022	10:31:12	Image 8 / 20 . 40.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\28_training.tif.	-
+
+Image 8 / 20 . 40.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\28_training.tif.
+
+28/01/2022	10:31:12	Image 9 / 20 . 45.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\29_training.tif.	-
+
+Image 9 / 20 . 45.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\29_training.tif.
+
+28/01/2022	10:31:12	Image 10 / 20 . 50.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\30_training.tif.	-
+
+Image 10 / 20 . 50.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\30_training.tif.
+
+28/01/2022	10:31:13	Image 11 / 20 . 55.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\31_training.tif.	-
+
+Image 11 / 20 . 55.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\31_training.tif.
+
+28/01/2022	10:31:13	Image 12 / 20 . 60.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\32_training.tif.	-
+
+Image 12 / 20 . 60.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\32_training.tif.
+
+28/01/2022	10:31:13	Image 13 / 20 . 65.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\33_training.tif.	-
+
+Image 13 / 20 . 65.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\33_training.tif.
+
+28/01/2022	10:31:14	Image 14 / 20 . 70.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\34_training.tif.	-
+
+Image 14 / 20 . 70.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\34_training.tif.
+
+28/01/2022	10:31:14	Image 15 / 20 . 75.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\35_training.tif.	-
+
+Image 15 / 20 . 75.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\35_training.tif.
+
+28/01/2022	10:31:15	Image 16 / 20 . 80.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\36_training.tif.	-
+
+Image 16 / 20 . 80.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\36_training.tif.
+
+28/01/2022	10:31:15	Image 17 / 20 . 85.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\37_training.tif.	-
+
+Image 17 / 20 . 85.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\37_training.tif.
+
+28/01/2022	10:31:16	Image 18 / 20 . 90.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\38_training.tif.	-
+
+Image 18 / 20 . 90.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\38_training.tif.
+
+28/01/2022	10:31:16	Image 19 / 20 . 95.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\39_training.tif.	-
+
+Image 19 / 20 . 95.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\39_training.tif.
+
+28/01/2022	10:31:16	Image 20 / 20 . 100.0 pct .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\40_training.tif.	-
+
+Image 20 / 20 . 100.0 pct .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\40_training.tif.
+
+28/01/2022	10:31:17	Image 1 / 20 . 5.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\21_training.tif.	-
+
+Image 1 / 20 . 5.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\21_training.tif.
+
+28/01/2022	10:31:17	Image 2 / 20 . 10.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\22_training.tif.	-
+
+Image 2 / 20 . 10.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\22_training.tif.
+
+28/01/2022	10:31:17	Image 3 / 20 . 15.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\23_training.tif.	-
+
+Image 3 / 20 . 15.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\23_training.tif.
+
+28/01/2022	10:31:17	Image 4 / 20 . 20.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\24_training.tif.	-
+
+Image 4 / 20 . 20.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\24_training.tif.
+
+28/01/2022	10:31:17	Image 5 / 20 . 25.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\25_training.tif.	-
+
+Image 5 / 20 . 25.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\25_training.tif.
+
+28/01/2022	10:31:17	Image 6 / 20 . 30.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\26_training.tif.	-
+
+Image 6 / 20 . 30.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\26_training.tif.
+
+28/01/2022	10:31:17	Image 7 / 20 . 35.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\27_training.tif.	-
+
+Image 7 / 20 . 35.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\27_training.tif.
+
+28/01/2022	10:31:17	Image 8 / 20 . 40.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\28_training.tif.	-
+
+Image 8 / 20 . 40.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\28_training.tif.
+
+28/01/2022	10:31:17	Image 9 / 20 . 45.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\29_training.tif.	-
+
+Image 9 / 20 . 45.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\29_training.tif.
+
+28/01/2022	10:31:17	Image 10 / 20 . 50.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\30_training.tif.	-
+
+Image 10 / 20 . 50.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\30_training.tif.
+
+28/01/2022	10:31:17	Image 11 / 20 . 55.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\31_training.tif.	-
+
+Image 11 / 20 . 55.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\31_training.tif.
+
+28/01/2022	10:31:17	Image 12 / 20 . 60.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\32_training.tif.	-
+
+Image 12 / 20 . 60.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\32_training.tif.
+
+28/01/2022	10:31:17	Image 13 / 20 . 65.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\33_training.tif.	-
+
+Image 13 / 20 . 65.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\33_training.tif.
+
+28/01/2022	10:31:17	Image 14 / 20 . 70.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\34_training.tif.	-
+
+Image 14 / 20 . 70.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\34_training.tif.
+
+28/01/2022	10:31:17	Image 15 / 20 . 75.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\35_training.tif.	-
+
+Image 15 / 20 . 75.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\35_training.tif.
+
+28/01/2022	10:31:17	Image 16 / 20 . 80.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\36_training.tif.	-
+
+Image 16 / 20 . 80.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\36_training.tif.
+
+28/01/2022	10:31:17	Image 17 / 20 . 85.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\37_training.tif.	-
+
+Image 17 / 20 . 85.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\37_training.tif.
+
+28/01/2022	10:31:17	Image 18 / 20 . 90.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\38_training.tif.	-
+
+Image 18 / 20 . 90.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\38_training.tif.
+
+28/01/2022	10:31:17	Image 19 / 20 . 95.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\39_training.tif.	-
+
+Image 19 / 20 . 95.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\39_training.tif.
+
+28/01/2022	10:31:17	Image 20 / 20 . 100.0 .C:\Users\sabir\Desktop\Name-TPX\Data\InputData\training\images\40_training.tif.	-
+
+Image 20 / 20 . 100.0 .C:\\Users\\sabir\\Desktop\\Name-TPX\\Data\\InputData\\training\\images\\40_training.tif.
+

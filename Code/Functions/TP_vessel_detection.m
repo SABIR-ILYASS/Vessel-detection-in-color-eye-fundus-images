@@ -1,0 +1,197 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Vessels detection
+%
+% [] = TP_vessel_detection( PROJ_D , filename , LogId )
+%
+%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%ENTREES%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+%
+%   PROJ_D  % Root directory of the project
+%
+%   kpack  : identyfying number of the package
+%            1  Database Drive (train set)
+%
+%   filename_in : full image filename
+%
+%
+%   LogId    : (Optional) ID of the LOG file (> 2) /Display (1) / Nothing (0)
+%               Default : 0
+%
+%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%SORTIES%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TP_vessel_detection.m
+% First Name
+% Family Name 
+% Date
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+function [] = TP_vessel_detection( PROJ_D , kpack, filename_in , LogId )
+
+% save('my_workspace.mat')
+% close all; clearvars;
+% load('my_workspace.mat');
+
+%% Parameters
+
+flag_display    = false;%true;% flag of display
+
+
+
+%% Image name
+
+
+
+[~,im_name_in] = fileparts(filename_in);
+
+
+%% Program
+
+%% try : to intercept the errors
+%try
+
+
+
+% image file
+%im = imread(filename_in);
+im = double(imread(filename_in))/255;
+
+
+
+if flag_display
+    
+    figure();
+    imagesc(im); colormap gray; hold on;
+    title(sprintf('image %s',im_name_in));
+    axis equal
+end
+
+ % extraction of the green component
+im_G = im(:,:,2);
+
+
+
+if flag_display
+    
+    figure();
+    imagesc(im_G); colormap gray; hold on;
+    title('Green component');
+    axis equal
+end
+
+%% segmentation of the ZOI (Zone of interest
+grad = imgradient(im_G);
+msk = imclearborder(imbinarize(imfill(grad,'holes')));
+msk_ZOI = imerode(msk,strel('disk',6));
+
+
+
+if flag_display
+    
+    figure();
+    imagesc(msk_ZOI); colormap gray; hold on;
+    title('My segmentation of the ZOI!!!');
+    axis equal
+end
+
+
+%% segmentation of the vessels
+im_G = (im_G-min(im_G(:)))./(max(im_G(:))-min(im_G(:))); %reetalement de la colorbar
+I3 = imbothat(im_G,strel('disk',5));
+I3(~msk_ZOI) = 0;
+
+% ----  ouverures.
+vein=zeros(size(I3));
+    
+for angle=0:5:180 
+    vein=max( vein, imopen(I3, strel('line',6,angle) ))  ;
+end 
+
+msk_vessels = vein > 0.095*( max(vein(:)) - min(vein(:)) ) ;
+msk_vessels = bwareaopen(msk_vessels , 7) ;
+% level =graythresh(vein);
+% msk=imbinarize(vein,level);
+% 
+% 
+% % Homotopic thinnings and discrete skeleton (TD4 Mathematical Morphology)
+% 
+% sk = bwmorph(msk,'skel',Inf);
+
+% filtring small objects:
+% 
+% skprao=bwareaopen(sk,9);
+% msk_vessels=imreconstruct(skprao,msk);
+
+if flag_display
+    
+    figure();
+    imagesc(msk_vessels); colormap gray; hold on;
+    title('My segmentation of the vessels!!!');
+    axis equal
+end
+
+%% Saving the results
+
+
+kfile = 11; % Mask of the image Zone of Interest    
+[fname] = TP_GEN_filenames( PROJ_D , kpack, kfile, filename_in);
+ajout_dossier(fname);
+imwrite( msk_ZOI , fname );
+fprintf('<------------------- Saved : %s\n',fname);
+
+
+kfile = 21; % vessels_mask
+[fname] = TP_GEN_filenames( PROJ_D , kpack, kfile, filename_in);
+ajout_dossier(fname);
+imwrite( msk_vessels , fname );
+fprintf('<------------------- Saved : %s\n',fname);
+
+%% Superimposition of the boundary of the mask vessels to the image
+if 1
+    boundary_vessels = bwboundaries(msk_vessels);
+    im_R = im(:,:,1);
+    im_G = im(:,:,2);
+    im_B = im(:,:,3);
+    SZ = size(im);
+    for n=1:length(boundary_vessels)
+       bv_ij = boundary_vessels{n};
+       ind = sub2ind( SZ(1:2) , bv_ij(:,1) , bv_ij(:,2) );
+       im_R(ind) = 255;
+       im_G(ind) = 255;
+       im_B(ind) = 255;
+    end
+    im_col_out = cat(3,im_R,im_G,im_B);
+    
+    
+    kfile = 22; % vessels_mask superimposed on the image
+    [fname] = TP_GEN_filenames( PROJ_D , kpack, kfile, filename_in);
+    imwrite( im_col_out , fname );
+    fprintf('<------------------- Saved : %s\n',fname);
+    
+    
+    if flag_display
+
+        figure();
+        imagesc(im_col_out); colormap gray; hold on;
+        title('Boundaries of the vessels!');
+        axis equal
+    end
+end
+
+if flag_display
+   pause(5);% a pause of 5 seconds
+   close all;
+end
+
+%% Catch : to write the error message in the Log file
+
+% %% Error management
+% catch ME
+%     EvenementLOG(LogId, 1, ME.message, 1);
+% end
